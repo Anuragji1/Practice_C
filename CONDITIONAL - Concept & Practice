@@ -1,0 +1,26 @@
+/*
+ * C program to determine if Chef is prone to errors, given his threshold limit (X) and current brain speed (Y).
+ *
+ * Input:
+ *   X: Threshold limit
+ *   Y: Current brain speed
+ *
+ * Output:
+ *   "YES" if Chef is prone to errors, "NO" otherwise
+ */
+
+#include <stdio.h>
+
+int main() {
+  int X, Y; // Threshold limit and current brain speed
+  scanf("%d %d", &X, &Y); // Read input
+
+  // Check if Chef is prone to errors
+  if (Y > X) {
+    printf("YES\n");
+  } else {
+    printf("NO\n");
+  }
+
+  return 0;
+}
