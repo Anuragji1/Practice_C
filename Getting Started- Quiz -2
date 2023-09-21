@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int t; // Variable to store the count of test cases
+    scanf("%d", &t); // Read the count of test cases
+
+    // Loop through each test case
+    while (t > 0) {
+        int N; // Variable to store the integer for the current test case
+        scanf("%d", &N); // Read the integer N for the current test case
+
+        int result = 2 * N; // Calculate double of N
+
+        // Output the result for the current test case
+        printf("%d\n", result);
+
+        t--; // Decrement the count of test cases
+    }
+
+    return 0;
+}
