@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    int t; // Declare a variable 't' to store the number of test cases
+
+    // Read the number of test cases from input
+    scanf("%d", &t);
+
+    // Loop through each test case
+    for (int i = 0; i < t; i++) {
+        int A, B; // Declare variables 'A' and 'B' to store the two input integers
+        
+        // Read the two input integers for the current test case from input
+        scanf("%d %d", &A, &B);
+
+        // Calculate the sum 'S' of the two input integers
+        int S = A + B;
+
+        // Calculate the product 'P' of the two input integers
+        int P = A * B;
+
+        // Print the sum 'S' and product 'P' separated by a space
+        printf("%d %d\n", S, P);
+    }
+
+    return 0;
+}
