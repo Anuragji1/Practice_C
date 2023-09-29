@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int X, Y; // Declare variables to store the marks of Alice and Bob
+
+    // Read the marks of Alice and Bob from input
+    scanf("%d %d", &X, &Y);
+
+    if (X >= 2 * Y) {
+        // If Alice's marks are at least twice Bob's marks, she is happy
+        printf("Yes\n");
+    } else {
+        // Otherwise, she is not happy
+        printf("No\n");
+    }
+
+    return 0;
+}
